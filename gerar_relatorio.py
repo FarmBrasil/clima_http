@@ -23,7 +23,7 @@ ESTACOES_DO_CLIENTE = [
     {'name': 'Portal da Amazonia2', 'id_estacao': '65907', 'latitude': -14.0104, 'longitude': -59.2108},
 ]
 # Define quantos anos de dados históricos buscar
-ANOS_DE_HISTORICO = 5
+ANOS_DE_HISTORICO = 4
 # ============================================================================
 
 
@@ -1047,4 +1047,5 @@ if __name__ == "__main__":
         import traceback
         traceback.print_exc()
         # Faz o script falhar para que o GitHub Actions reporte o erro
+
         exit(1)
